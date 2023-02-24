@@ -1,0 +1,178 @@
+.icon-bar {
+    width: 100%; 
+    background-image: url(imagenes/titulo.gif); 
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+  
+.icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 20%; 
+    padding: 20px 0; 
+    transition: all 0.3s ease;
+    color: rgb(250, 248, 248);
+    font-size: 36px; 
+  }
+  
+.icon-bar a:hover {
+    background-color: #000000;
+     
+  }
+  
+.active {
+    background-color: #0d0d0d;
+ }
+ .cabecera h1 {
+    text-align: center;
+    background-color: #000000;
+    font-size: 50px;
+    }  
+body {
+    background-image: url(imagenes/fondo.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+h1 {
+    text-align: center;
+    font-size:  250%;
+    color: azure;
+    background-color: rgb(15, 14, 14);
+    text-shadow: 2px 2px 5px rgb(253, 2, 2);
+    }
+h2 {
+    text-align: center;
+    font-size:  250%;
+    color: azure;
+    background-color: rgb(15, 14, 14);
+    }
+.flex-container {
+    display: flex;
+    background-image: url(imagenes/fondo.jpg);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    }
+      
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+    }
+p {
+    font-size: 150%;
+    color: rgb(10, 10, 10);
+    text-align: justify;
+    }
+img{
+    width: 550px;
+    height: 550px;
+    image-resolution: 100%;  
+    display: block;
+    }
+.container {
+    position:relative;
+    width: 35%;
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 110px;
+    flex-wrap: nowrap;
+    }
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(imagenes/hacia2.jpg);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    }
+      
+.container:hover .overlay {
+    width: 100%;
+    left: 0;
+    }
+      
+.text {
+    white-space: pre-wrap; 
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: justify;
+    }
+h3{
+    text-align: center;
+    font-size:  150%;
+    color: azure;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(imagenes/luz2.jpg);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    }
+.container2 {
+    position:relative;
+    width: 35%;
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 110px;
+    flex-wrap: nowrap;
+}
+.container2:hover .overlay2 {
+    width: 100%;
+    left: 0;
+}
+.overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(imagenes/black2.jpg);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    }
+.container3 {
+    position:relative;
+    width: 35%;
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 110px;
+    flex-wrap: nowrap;
+}
+.container3:hover .overlay3 {
+    width: 100%;
+    left: 0;
+    }
+footer{
+    text-align: center;
+    font-size:  100%;
+    color: azure;
+    background-color: rgb(250, 248, 248);
+    text-shadow: 2px 2px 5px rgb(73, 2, 253);   
+}
